@@ -1,0 +1,63 @@
+@font-face {
+    font-family: "VenrynSans";
+    src: url(/font/VenrynSans.ttf);
+}
+
+* {
+    font-family: VenrynSans;
+}
+
+.firstScreen {
+    width: 1000px;
+    margin: 10px auto;
+    padding: 10px;
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    justify-content: left;
+    text-align: justify;
+    background: #b9b9b923;
+}
+
+.head {
+    width: 1000px;
+    margin: 10px auto;
+    padding: 10px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center; 
+    text-align: justify;
+}
+
+h1 {
+    font-size: 30px; 
+    text-transform: uppercase;
+    text-align: center;
+}
+
+h2 {
+    font-size: 25px;
+}
+
+p {
+    font-size: 20px;
+}
+
+label {
+    font-size: 20px;
+}
+
+.secondScreen {
+    display: none;
+    flex-direction: column;
+    margin: 10px auto;
+    align-items: center;
+    justify-content: center; 
+    text-align: justify;
+}
+  
+.button {
+    font-size: 20px;
+    margin-top: 20px;
+}

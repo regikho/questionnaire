@@ -1,0 +1,88 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">
+    <link rel="icon" href="/img/favicon.png">
+    <title>Опрос</title>
+</head>
+<body>
+    <div class="head"> 
+        <h1>Опрос</h1>
+        <h2>
+        Уважаемый респондент, предлагаем Вам ответить на несколько вопросов по теме: "Рынок ценных бумаг". 
+        Все вопросы являются обязательными для ответа. Спасибо за уделенное время!
+        </h2>
+    </div>
+    <form class="firstScreen" id="screen">
+        <p>Какие бывают акции?</p>
+        <div>
+            <input type="checkbox" id="ordinary" name="ordinary" value="1">
+            <label for="ordinary">Обыкновенные</label>
+        </div>
+        <div>
+            <input type="checkbox" id="notOrdinary" name="notOrdinary" value="0">
+            <label for="notOrdinary">Обычные</label>
+        </div>
+        <div>
+            <input type="checkbox" id="pref" name="pref" value="1">
+            <label for="pref">Привилегированные</label>
+        </div>
+        <div>
+            <input type="checkbox" id="notPrefref" name="notPref" value="0">
+            <label for="notPref">Купонные</label>
+        </div>
+        <p>
+            Акция - это эмиссионная долговая ценная бумага, 
+            владелец которой имеет право получить её номинальную стоимость деньгами или имуществом в установленный ею срок?
+        </p>
+        <div>
+            <input type="radio" id="choice1" name="firstQuestion" value="0">
+            <label for="radioButton">Да</label>
+        </div>
+        <div>
+            <input type="radio" id="choice2" name="firstQuestion" value="1">
+            <label for="radioButton">Нет</label>
+        </div>
+        <p>
+            ... - это эмиссионная ценная бумага, предоставляющая её владельцу право на участие в управлении акционерным обществом 
+            и право на получение части прибыли в форме дивидендов.
+        </p>
+        <div>
+            <input type="radio" id="choice1" name="secondQuestion" value="0">
+            <label for="radioButton">Облигация</label>
+        </div>
+        <div>
+            <input type="radio" id="choice2" name="secondQuestion" value="1">
+            <label for="radioButton">Акция</label>
+        </div>
+        <div>
+            <input type="radio" id="choice3" name="secondQuestion" value="0">
+            <label for="radioButton">Вексель</label>
+        </div>
+        <p>
+            Может ли в РФ физическое лицо являться дилером? (дилерская деятельность – это совершение сделок купли-продажи ценных бумаг от своего имени и за свой счет путем котировки ценных
+            бумаг)
+        </p>
+        <div>
+            <input type="radio" id="choice1" name="thirdQuestion" value="0">
+            <label for="radioButton">Да</label>
+        </div>
+        <div>
+            <input type="radio" id="choice2" name="thirdQuestion" value="1">
+            <label for="radioButton">Нет</label>
+        </div>
+        <button class="button" type="button" disabled>
+            Отправить
+        </button>
+    </form>
+    <div class="secondScreen" id="result">
+        <h1>Результат</h1>
+        <p class="trueAnswers" id="true">Количество верных ответов:</p>
+        <p class="falseAnswers" id="false">Количество неверных ответов:</p>
+    </div>
+    <script src='app.js'></script>
+</body>
+</html>
