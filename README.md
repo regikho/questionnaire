@@ -7,6 +7,8 @@
   <li>на втором - результат (количество верных и неверных ответов).</li>
  
    
-   ![Alt-текст](https://raw.githubusercontent.com/regikho/questionnaire/main/img/firstScreen.JPG "screen");
+   ![Alt-текст](https://raw.githubusercontent.com/regikho/questionnaire/main/img/firstScreen.JPG "screen")
+   вопросы
    
-   ![Alt-текст](https://raw.githubusercontent.com/regikho/questionnaire/main/img/secondScreen.JPG "screen");
+   ![Alt-текст](https://raw.githubusercontent.com/regikho/questionnaire/main/img/secondScreen.JPG "screen")
+   количество верных и неверных ответов
