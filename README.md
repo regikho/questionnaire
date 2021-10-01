@@ -8,7 +8,6 @@
  
    
    ![Alt-текст](https://raw.githubusercontent.com/regikho/questionnaire/main/img/firstScreen.JPG "screen")
-   вопросы
+ 
    
    ![Alt-текст](https://raw.githubusercontent.com/regikho/questionnaire/main/img/secondScreen.JPG "screen")
-   количество верных и неверных ответов
