@@ -9,4 +9,4 @@
    
    ![Alt-текст](https://raw.githubusercontent.com/regikho/questionnaire/main/img/firstScreen.JPG "screen");
    
-     ![Alt-текст](https://raw.githubusercontent.com/regikho/questionnaire/main/img/secondScreen.JPG "screen");
+   ![Alt-текст](https://raw.githubusercontent.com/regikho/questionnaire/main/img/secondScreen.JPG "screen");
